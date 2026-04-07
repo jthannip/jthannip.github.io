@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | John Thannipara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">John Thannipara</div>
+            <ul>
+                <li><a href="index.html" class="active">About</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="reflection.html">Reflection</a></li>
+                <li class="switch-container">
+                    <span class="mode-label">Dark Mode</span>
+                    <label class="theme-switch">
+                        <input type="checkbox" id="theme-checkbox">
+                        <span class="slider"></span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="animate-fade">
+        <section class="hero">
+            <p class="eyebrow">Electrical Engineering Candidate</p>
+            <h1>Intuitive systems. <br><span class="gradient-text">Sustainable impact.</span></h1>
+            <p class="hero-subtext">Fourth-year student at UBC Okanagan specializing in off-grid power and embedded control logic.</p>
+        </section>
+
+        <section class="apple-card">
+            <h2>Professional Bio</h2>
+            <p>I am a final-year Electrical Engineering student at the University of British Columbia Okanagan with a deep interest in renewable energy and smart-grid technology. My academic journey is defined by a commitment to technical rigor and social equity, applying complex theoretical frameworks to real-world infrastructure challenges.</p>
+            <p>During my Capstone project, I led the physical prototyping phase, where I designed and coded a functional scale model using Arduino to demonstrate solar charging and environmental sensing for a community in Cuba.</p>
+        </section>
+
+        <section class="apple-card">
+            <h2>Personal Interests & Character</h2>
+            <p>At my core, I am a builder. I have always loved <strong>tinkering with electronics</strong>, a curiosity that evolved from exploring gadgets to designing sophisticated solar microgrids. This hands-on motivation is what drives my character as an engineer—I don't just want to understand how a system works on paper; I want to build it and test it to ensure its real-world impact.</p>
+        </section>
+
+        <div class="grid-container">
+            <div class="apple-card">
+                <img src="model-front.jpg" alt="Front view of the solar scale model">
+                <div class="caption"><strong>Scale Model: Front View.</strong> A physical representation of our solar energy system implemented outside a residential structure in Cienfuegos, Cuba.</div>
+            </div>
+            <div class="apple-card">
+                <img src="model-led.jpg" alt="LCD panel showing system data">
+                <div class="caption"><strong>System Monitoring.</strong> The integrated LCD panel displaying real-time light intensity, temperature, and battery levels controlled via my Arduino logic.</div>
+            </div>
+        </div>
+
+        <section class="hero-mini">
+            <div class="cta-group">
+                <a href="mailto:your.email@ubc.ca" class="apple-btn">Connect via Email</a>
+                <a href="project.html" class="link-btn">View Capstone Innovation →</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="theme.js"></script>
+</body>
+</html>

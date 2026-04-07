@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone | Solar for Cienfuegos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">John Thannipara</div>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="project.html" class="active">Project</a></li>
+                <li><a href="reflection.html">Reflection</a></li>
+                <li class="switch-container">
+                    <span class="mode-label">Dark Mode</span>
+                    <label class="theme-switch">
+                        <input type="checkbox" id="theme-checkbox">
+                        <span class="slider"></span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="animate-fade">
+        <section class="hero-mini">
+            <p class="eyebrow">Innovation for Impact</p>
+            <h1>Solar for Cienfuegos.</h1>
+            <p>Engineering resilience for rural Cuba.</p>
+        </section>
+
+        <div class="grid-container">
+            <div class="apple-card wide">
+                <h3>The Challenge & Objective</h3>
+                <p>Residents in rural Cienfuegos face daily blackouts lasting 18 to 21 hours. Our team designed a 48V DC off-grid microgrid to restore essential services including refrigeration, lighting, and fans.</p>
+            </div>
+
+            <div class="apple-card">
+                <img src="prototype.jpg" alt="Ground Mount CAD">
+                <div class="caption"><strong>Structural Design:</strong> Treated timber frame anchored by ground screws to withstand 270 km/h gusts.</div>
+            </div>
+
+            <div class="apple-card">
+                <img src="schematic.jpg" alt="Electrical Schematic">
+                <div class="caption"><strong>Electrical Integration:</strong> 5kW hybrid inverter with a 20kWh LiFePO4 battery bank for 24-hour autonomy.</div>
+            </div>
+
+            <div class="apple-card wide">
+                <h3>Engineering Perspective & Outcomes</h3>
+                <p>The system utilizes 10 recycled solar panels delivering 21kWh daily, exceeding the 15kWh requirement. My specific role involved developing the Arduino-based physical prototype to monitor real-time environmental data.</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="theme.js"></script>
+</body>
+</html>
